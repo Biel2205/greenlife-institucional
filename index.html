@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GreenLife - Sustentabilidade e Voluntariado</title>
 
-  <!-- Conectando CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Cabeçalho -->
   <header>
     <h1>🌿 GreenLife</h1>
     <nav>
@@ -23,37 +21,36 @@
     </nav>
   </header>
 
-  <!-- Conteúdo Principal -->
   <main>
 
-    <!-- Seção de Missão -->
     <section class="card">
       <h2>Nossa Missão</h2>
       <p>
-        A GreenLife tem como missão promover ações sustentáveis que contribuam para um planeta mais verde,
-        incentivando a conscientização ambiental e o voluntariado em comunidades locais.
+        A GreenLife é uma iniciativa voltada à promoção da sustentabilidade e do voluntariado,
+        buscando impactar positivamente comunidades através de ações ambientais e sociais.
       </p>
-      <img src="https://via.placeholder.com/600x300" alt="Imagem representando sustentabilidade">
+
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+           alt="Natureza e sustentabilidade">
     </section>
 
-    <!-- Seção de Cadastro -->
     <section class="card">
       <h2>Cadastre-se como Voluntário</h2>
 
-      <form>
+      <form id="form">
         <div class="form-group">
-          <label for="nome">Nome completo:</label>
-          <input type="text" id="nome" required>
+          <label>Nome completo:</label>
+          <input type="text" required>
         </div>
 
         <div class="form-group">
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" required>
+          <label>E-mail:</label>
+          <input type="email" required>
         </div>
 
         <div class="form-group">
-          <label for="motivo">Por que você quer ser voluntário?</label>
-          <textarea id="motivo" rows="4" required></textarea>
+          <label>Por que você quer ser voluntário?</label>
+          <textarea rows="4" required></textarea>
         </div>
 
         <button type="submit">Enviar Cadastro</button>
@@ -62,10 +59,16 @@
 
   </main>
 
-  <!-- Rodapé -->
   <footer>
     <p>&copy; 2025 GreenLife. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+    document.getElementById("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Cadastro enviado com sucesso!");
+    });
+  </script>
 
 </body>
 </html>
