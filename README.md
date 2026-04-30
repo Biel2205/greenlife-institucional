@@ -1,22 +1,28 @@
-# GreenLife Institucional
+# 🌿 GreenLife Institucional
 
-Este projeto é um site institucional desenvolvido com HTML e CSS, com o objetivo de apresentar uma empresa fictícia chamada GreenLife.
+Projeto de site institucional desenvolvido com HTML, CSS e JavaScript, com foco em sustentabilidade e voluntariado.
 
 ## 🚀 Funcionalidades
 
-- Página inicial com apresentação da empresa
-- Layout simples e responsivo
-- Estrutura organizada de conteúdo
+- Página institucional
+- Formulário de cadastro de voluntários
+- Layout responsivo
+- Interação com JavaScript
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias
 
 - HTML
 - CSS
+- JavaScript
+
+## 📸 Preview
+
+(coloca o print aqui)
 
 ## ▶️ Como executar
 
-1. Baixe ou clone o repositório
-2. Abra o arquivo `index.html` no navegador
+1. Baixe o projeto
+2. Abra o arquivo `index.html`
 
 ## 👨‍💻 Autor
 
