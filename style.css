@@ -4,24 +4,69 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background-color: #2e7d32;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
 main {
     padding: 20px;
 }
 
-section {
+/* Cards */
+.card {
     background: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Form */
+.form-group {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
 footer {
     background-color: #1b5e20;
     color: white;
