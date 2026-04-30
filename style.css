@@ -41,6 +41,13 @@ main {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Imagem */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 /* Form */
 .form-group {
     margin-bottom: 10px;
@@ -72,4 +79,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
 }
